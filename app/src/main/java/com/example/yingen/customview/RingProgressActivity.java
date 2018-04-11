@@ -7,15 +7,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.yingen.InputEditLayoutDemo;
+import com.example.yingen.customview.activity.InputEditLayoutDemo;
 import com.example.yingen.customview.Model.CakeValue;
-import com.example.yingen.customview.Model.Rings;
 import com.example.yingen.customview.view.CakeSurfaceView;
 import com.example.yingen.customview.view.PieChartView;
-import com.example.yingen.customview.view.RingsProgress;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -23,7 +20,7 @@ import java.util.List;
  * email youguyilin@126.com.
  */
 
-public class LunchActivity extends AppCompatActivity {
+public class RingProgressActivity extends AppCompatActivity {
     private CakeSurfaceView mRingsProgress;
     private PieChartView pieChartNow;
     private Button mbtn;
@@ -37,7 +34,7 @@ public class LunchActivity extends AppCompatActivity {
         mbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(LunchActivity.this,InputEditLayoutDemo.class);
+                Intent intent = new Intent(RingProgressActivity.this,InputEditLayoutDemo.class);
                 startActivity(intent);
             }
         });

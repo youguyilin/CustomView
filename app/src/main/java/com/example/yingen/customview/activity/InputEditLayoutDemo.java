@@ -1,4 +1,4 @@
-package com.example.yingen;
+package com.example.yingen.customview.activity;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

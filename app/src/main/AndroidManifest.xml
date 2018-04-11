@@ -9,13 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LunchActivity">
+        <activity android:name=".GuideActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.yingen.InputEditLayoutDemo"/>
+        <activity android:name=".RingProgressActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".activity.InputEditLayoutDemo" android:screenOrientation="portrait"/>
+        <activity android:name=".StickyItemActivity" android:screenOrientation="portrait"/>
     </application>
 </manifest>
